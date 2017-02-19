@@ -7,7 +7,7 @@ namespace HoloBlueprint.Sensors.WebAPI.Models
 {
     public class Wing
     {
-        public string Name { get; set; }
+        public string WingName { get; set; }
         public List<Floor> Floors { get; set; }
     }
 }

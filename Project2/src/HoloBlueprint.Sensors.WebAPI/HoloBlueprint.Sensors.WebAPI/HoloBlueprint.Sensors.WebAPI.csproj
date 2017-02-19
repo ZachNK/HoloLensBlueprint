@@ -86,7 +86,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\BuildingsController.cs" />
+    <Compile Include="Controllers\BuildingController.cs" />
+    <Compile Include="Data\BuildingCreator.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -99,6 +100,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Data\buildings.json" />
+    <None Include="Properties\PublishProfiles\HoloBlueprintSensorsWebAPI - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
