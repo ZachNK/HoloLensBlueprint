@@ -1,18 +1,23 @@
-﻿using HoloBlueprint.Sensors.WebAPI.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
-
-namespace HoloBlueprint.Sensors.WebAPI.Controllers
+﻿namespace HoloBlueprint.Sensors.WebAPI.Controllers
 {
+    using HoloBlueprint.Data;
+    using HoloBlueprint.Sensors.WebAPI.Data;
+    using System.Web.Http;
+
+    /// <summary>
+    /// Building Control API Class
+    /// </summary>
+    /// <seealso cref="System.Web.Http.ApiController" />
     public class BuildingController : ApiController
     {
+        /// <summary>
+        /// Gets the building.
+        /// </summary>
+        /// <returns>Building object</returns>
         public IHttpActionResult GetBuilding()
         {
-            Building building = Data.BuildingCreator.LoadBuildingsData(0);
+            string buildingId = "12345";
+            Building building = new BuildingCreator().LoadBuilding(buildingId);
 
             if (building == null)
             {
@@ -22,9 +27,14 @@ namespace HoloBlueprint.Sensors.WebAPI.Controllers
             return (Ok(building));
         }
 
+        /// <summary>
+        /// Gets the building.
+        /// </summary>
+        /// <param name="id">The identifier.</param>
+        /// <returns>Building object</returns>
         public IHttpActionResult GetBuilding(int id)
         {
-            Building building = Data.BuildingCreator.LoadBuildingsData(id);
+            Building building = new BuildingCreator().LoadBuilding(id.ToString());
 
             if (building == null)
             {
