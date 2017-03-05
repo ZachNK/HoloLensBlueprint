@@ -147,7 +147,7 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\HoloBlueprint.Data\HoloBlueprint.Data.csproj">
+    <ProjectReference Include="..\HoloBlueprint.Data\HoloBlueprint.Data.csproj">
       <Project>{d31dd315-3e2e-4172-9f76-85b86959a100}</Project>
       <Name>HoloBlueprint.Data</Name>
     </ProjectReference>

@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloBlueprint.Sensors.WebAPI", "HoloBlueprint.Sensors.WebAPI\HoloBlueprint.Sensors.WebAPI.csproj", "{5D999D96-B4DA-4FF7-A181-0059473520A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloBlueprint.Sensors.Simulator", "..\HoloBlueprint.Sensors.Simulator\HoloBlueprint.Sensors.Simulator.csproj", "{9CBA7CAF-71E7-47E5-9126-4C7FFB7AA85C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloBlueprint.Sensors.Simulator", "HoloBlueprint.Sensors.Simulator\HoloBlueprint.Sensors.Simulator.csproj", "{9CBA7CAF-71E7-47E5-9126-4C7FFB7AA85C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloBlueprint.Data", "..\HoloBlueprint.Data\HoloBlueprint.Data.csproj", "{D31DD315-3E2E-4172-9F76-85B86959A100}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloBlueprint.Data", "HoloBlueprint.Data\HoloBlueprint.Data.csproj", "{D31DD315-3E2E-4172-9F76-85B86959A100}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
