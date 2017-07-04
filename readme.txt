@@ -1,1 +1,1 @@
-https://github.com/PacktPublishing/HoloLens-Blueprints
+Book source code and samples are available at publisher github repository - https://github.com/PacktPublishing/HoloLens-Blueprints
