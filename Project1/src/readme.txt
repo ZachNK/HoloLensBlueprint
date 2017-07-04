@@ -1,1 +1,0 @@
-Project 1 - final source code will be placed into this folder

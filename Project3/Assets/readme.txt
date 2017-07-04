@@ -1,1 +1,0 @@
-Project 3 - prebuild 3D assets will be placed into this folder
