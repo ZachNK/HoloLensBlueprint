@@ -1,0 +1,104 @@
+[
+  {
+    "Name": "XyZ Inc.",
+    "Id": "12345",
+    "Address": "1123, Hitech City, Hyderabad, India - 500032",
+    "Wings": [
+      {
+        "Name": "B1-W1",
+        "Floors": [
+          {
+            "Number": "B1-W1-F1",
+            "Rooms": [
+              {
+                "Number": "B1-W1-101",
+                "Temperature": 24,
+                "IsSmoke": false,
+                "IsFire": false
+              },
+              {
+                "Number": "B1-W1-102",
+                "Temperature": 24,
+                "IsSmoke": false,
+                "IsFire": false
+              }
+            ]
+          },
+          {
+            "Number": "B1-W1-F2",
+            "Rooms": [
+              {
+                "Number": "B1-W1-201",
+                "Temperature": 24,
+                "IsSmoke": false,
+                "IsFire": false
+              },
+              {
+                "Number": "B1-W1-202",
+                "Temperature": 24,
+                "IsSmoke": true,
+                "IsFire": false
+              }
+            ]
+          },
+          {
+            "Number": "B1-W1-F3",
+            "Rooms": [
+              {
+                "Number": "B1-W1-301",
+                "Temperature": 24,
+                "IsSmoke": false,
+                "IsFire": false
+              },
+              {
+                "Number": "B1-W1-302",
+                "Temperature": 24,
+                "IsSmoke": false,
+                "IsFire": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "B1-W2",
+        "Floors": [
+          {
+            "Number": "B1-W2-F1",
+            "Rooms": [
+              {
+                "Number": "B1-W2-101",
+                "Temperature": 24,
+                "IsSmoke": false,
+                "IsFire": false
+              },
+              {
+                "Number": "B1-W2-102",
+                "Temperature": 24,
+                "IsSmoke": false,
+                "IsFire": false
+              }
+            ]
+          },
+          {
+            "Number": "B1-W2-F2",
+            "Rooms": [
+              {
+                "Number": "B1-W2-201",
+                "Temperature": 32,
+                "IsSmoke": false,
+                "IsFire": false
+              },
+              {
+                "Number": "B1-W2-202",
+                "Temperature": 24,
+                "IsSmoke": false,
+                "IsFire": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
